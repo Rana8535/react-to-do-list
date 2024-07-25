@@ -1,0 +1,44 @@
+.header{
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 3px;
+  font-style: italic;
+}
+.items{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  align-items: center; 
+}
+.items input{
+  margin: 5px;
+}
+.items .btn{
+  margin: 5px;
+  background-color: black;
+  color: white;
+}
+.items .btn:hover{
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.ipdata{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ipdata h3,p,button{
+  margin: 2px 50px;
+}
+.ipdata button{
+  background-color: rgb(231, 74, 74);
+  color: white;
+  border: none;
+}
